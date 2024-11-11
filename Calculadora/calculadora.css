@@ -1,0 +1,41 @@
+*{
+    margin: 0; /*Se asigna un margen general al código*/ 
+    padding: 0; /*Se asigna un padding general al código*/
+    box-sizing: border-box; /*Determina cómo se calcula el ancho y el alto*/
+}
+
+h1{
+    text-align: center; /*Centramos los elementos de la etiqueta h1*/
+    padding: 10px; /*Le agregamos una separación*/
+}
+
+#calculadora{
+    border: black 5px solid; /*Se le añade un borde con un color, tamaño específicos*/
+    background-color: #D3D3D3; /*Se cambia el color del fondo*/
+    width: 500px; /*Se le da un ancho a la claculadora*/
+    text-align: center; /*Centramos todos los elementos que están dentro de la calculadora*/
+    top: 50px; /*Se le asigna un tamaño al alto de la calculadora*/
+    right: 0; /*Se especifica la posición a la derecha*/ 
+    left: 0; /*SSe especifica la posición a la izquierda*/
+    position: absolute; /*Fija el elemento calculadora*/
+    margin: auto; /*Se le da un margen automático*/
+
+}
+
+#pantalla{
+    padding: 40px; /*Se añade una separación*/
+    border: black 1px solid; /*Se le añade un borde con un color, tamaño específicos*/
+    margin: 4px; /*Se le da un margen en concreto*/
+    background-color: white; /**/
+    width: 480px; /*Se le da un ancho a la pantalla*/
+}
+
+#teclado div div{
+    border: black 1px solid; /*Se le añade un borde con un color, tamaño específicos*/
+    font-size: 50px; /*Modifica el tamaño de lo que este escrito*/
+    float: left; /*Ubica el elemento al lado izquierdo de su contenedor*/
+    padding: 10px; /*Se añade una separación*/
+    margin: 6px; /*Se le da un margen en concreto*/
+    width: 110px; /*Se le da un ancho al teclado*/
+    font-weight: bold; /*Cambia el estilo de lo que tenga escrito a negrita*/
+}
